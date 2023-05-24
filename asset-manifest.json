@@ -1,15 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.99966b45.css",
-    "main.js": "/static/js/main.1a76d456.js",
-    "static/js/787.b94b7dc0.chunk.js": "/static/js/787.b94b7dc0.chunk.js",
+    "main.css": "/static/css/main.450aa705.css",
+    "main.js": "/static/js/main.69eb6550.js",
+    "static/media/Boat&Bains.png": "/static/media/Boat&Bains.76e7ce82118246e19bcb.png",
+    "static/media/Carter's.png": "/static/media/Carter's.225d3d826b0a079d6e2b.png",
+    "static/media/book.png": "/static/media/book.60ecfbd1004817dbb8b4.png",
+    "static/media/Kings (1).png": "/static/media/Kings (1).b3a51a51eb8a7f69285c.png",
+    "static/media/Ranjeet-3.png": "/static/media/Ranjeet-3.8b07be15d38869612728.png",
+    "static/media/github.png": "/static/media/github.bc45ee99ee31457ba80a.png",
+    "static/media/react.png": "/static/media/react.f3e576ba08e6be927148.png",
+    "static/media/vscode.png": "/static/media/vscode.d793c746fbc937f66e3d.png",
+    "static/media/css.jpg": "/static/media/css.ef605f2148ca970497b5.jpg",
     "index.html": "/index.html",
-    "main.99966b45.css.map": "/static/css/main.99966b45.css.map",
-    "main.1a76d456.js.map": "/static/js/main.1a76d456.js.map",
-    "787.b94b7dc0.chunk.js.map": "/static/js/787.b94b7dc0.chunk.js.map"
+    "main.450aa705.css.map": "/static/css/main.450aa705.css.map",
+    "main.69eb6550.js.map": "/static/js/main.69eb6550.js.map"
   },
   "entrypoints": [
-    "static/css/main.99966b45.css",
-    "static/js/main.1a76d456.js"
+    "static/css/main.450aa705.css",
+    "static/js/main.69eb6550.js"
   ]
 }
