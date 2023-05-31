@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.61ab0cba.css",
-    "main.js": "/static/js/main.4361c49c.js",
+    "main.js": "/static/js/main.938e7d0a.js",
     "static/media/Boat&Bains.png": "/static/media/Boat&Bains.76e7ce82118246e19bcb.png",
     "static/media/Carter's.png": "/static/media/Carter's.225d3d826b0a079d6e2b.png",
     "static/media/Ranjeet-Kumar-Raj_Resume.pdf": "/static/media/Ranjeet-Kumar-Raj_Resume.c5000d585df5bc6109ac.pdf",
@@ -14,10 +14,10 @@
     "static/media/css.jpg": "/static/media/css.ef605f2148ca970497b5.jpg",
     "index.html": "/index.html",
     "main.61ab0cba.css.map": "/static/css/main.61ab0cba.css.map",
-    "main.4361c49c.js.map": "/static/js/main.4361c49c.js.map"
+    "main.938e7d0a.js.map": "/static/js/main.938e7d0a.js.map"
   },
   "entrypoints": [
     "static/css/main.61ab0cba.css",
-    "static/js/main.4361c49c.js"
+    "static/js/main.938e7d0a.js"
   ]
 }
