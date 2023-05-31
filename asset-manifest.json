@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.61ab0cba.css",
-    "main.js": "/static/js/main.3662d1ed.js",
+    "main.css": "/static/css/main.6dea4d5c.css",
+    "main.js": "/static/js/main.3fd4902c.js",
     "static/media/Boat&Bains.png": "/static/media/Boat&Bains.76e7ce82118246e19bcb.png",
     "static/media/Carter's.png": "/static/media/Carter's.225d3d826b0a079d6e2b.png",
     "static/media/Ranjeet-Kumar-Raj_Resume.pdf": "/static/media/Ranjeet-Kumar-Raj_Resume.c5000d585df5bc6109ac.pdf",
@@ -13,11 +13,11 @@
     "static/media/vscode.png": "/static/media/vscode.d793c746fbc937f66e3d.png",
     "static/media/css.jpg": "/static/media/css.ef605f2148ca970497b5.jpg",
     "index.html": "/index.html",
-    "main.61ab0cba.css.map": "/static/css/main.61ab0cba.css.map",
-    "main.3662d1ed.js.map": "/static/js/main.3662d1ed.js.map"
+    "main.6dea4d5c.css.map": "/static/css/main.6dea4d5c.css.map",
+    "main.3fd4902c.js.map": "/static/js/main.3fd4902c.js.map"
   },
   "entrypoints": [
-    "static/css/main.61ab0cba.css",
-    "static/js/main.3662d1ed.js"
+    "static/css/main.6dea4d5c.css",
+    "static/js/main.3fd4902c.js"
   ]
 }
