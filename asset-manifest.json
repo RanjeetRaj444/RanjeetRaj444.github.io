@@ -1,7 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.61ab0cba.css",
-    "main.js": "/static/js/main.b8bbb0ec.js",
+    "main.js": "/static/js/main.2f4710dc.js",
+    "static/media/GemGarden.png": "/static/media/GemGarden.741a5e0104d4ddea4656.png",
     "static/media/Boat&Bains.png": "/static/media/Boat&Bains.76e7ce82118246e19bcb.png",
     "static/media/Carter's.png": "/static/media/Carter's.225d3d826b0a079d6e2b.png",
     "static/media/Ranjeet-Kumar-Raj_Resume.pdf": "/static/media/Ranjeet-Kumar-Raj_Resume.c5000d585df5bc6109ac.pdf",
@@ -14,10 +15,10 @@
     "static/media/css.jpg": "/static/media/css.ef605f2148ca970497b5.jpg",
     "index.html": "/index.html",
     "main.61ab0cba.css.map": "/static/css/main.61ab0cba.css.map",
-    "main.b8bbb0ec.js.map": "/static/js/main.b8bbb0ec.js.map"
+    "main.2f4710dc.js.map": "/static/js/main.2f4710dc.js.map"
   },
   "entrypoints": [
     "static/css/main.61ab0cba.css",
-    "static/js/main.b8bbb0ec.js"
+    "static/js/main.2f4710dc.js"
   ]
 }
