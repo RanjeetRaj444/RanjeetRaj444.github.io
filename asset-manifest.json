@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/static/css/main.61ab0cba.css",
-    "main.js": "/static/js/main.f72c5e42.js",
+    "main.js": "/static/js/main.47b2bdfa.js",
     "static/media/GemGarden.png": "/static/media/GemGarden.741a5e0104d4ddea4656.png",
     "static/media/Boat&Bains.png": "/static/media/Boat&Bains.76e7ce82118246e19bcb.png",
     "static/media/Carter's.png": "/static/media/Carter's.225d3d826b0a079d6e2b.png",
-    "static/media/Ranjeet-Kumar-Raj_Resume.pdf": "/static/media/Ranjeet-Kumar-Raj_Resume.837930451ed747cfff2c.pdf",
+    "static/media/Ranjeet-Kumar-Raj_Resume.pdf": "/static/media/Ranjeet-Kumar-Raj_Resume.1dee0dc5368f5124569d.pdf",
     "static/media/book.png": "/static/media/book.60ecfbd1004817dbb8b4.png",
     "static/media/Kings (1).png": "/static/media/Kings (1).b3a51a51eb8a7f69285c.png",
     "static/media/Ranjeet-3.png": "/static/media/Ranjeet-3.8b07be15d38869612728.png",
@@ -15,10 +15,10 @@
     "static/media/css.jpg": "/static/media/css.ef605f2148ca970497b5.jpg",
     "index.html": "/index.html",
     "main.61ab0cba.css.map": "/static/css/main.61ab0cba.css.map",
-    "main.f72c5e42.js.map": "/static/js/main.f72c5e42.js.map"
+    "main.47b2bdfa.js.map": "/static/js/main.47b2bdfa.js.map"
   },
   "entrypoints": [
     "static/css/main.61ab0cba.css",
-    "static/js/main.f72c5e42.js"
+    "static/js/main.47b2bdfa.js"
   ]
 }
