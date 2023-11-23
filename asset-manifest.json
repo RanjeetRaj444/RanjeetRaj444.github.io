@@ -1,24 +1,24 @@
 {
   "files": {
     "main.css": "/static/css/main.e1794b42.css",
-    "main.js": "/static/js/main.9f40a700.js",
+    "main.js": "/static/js/main.64eca75e.js",
     "static/media/GemGarden.png": "/static/media/GemGarden.741a5e0104d4ddea4656.png",
     "static/media/Boat&Bains.png": "/static/media/Boat&Bains.76e7ce82118246e19bcb.png",
     "static/media/Carter's.png": "/static/media/Carter's.225d3d826b0a079d6e2b.png",
-    "static/media/Ranjeet-Kumar-Raj_Resume.pdf": "/static/media/Ranjeet-Kumar-Raj_Resume.1dee0dc5368f5124569d.pdf",
     "static/media/book.png": "/static/media/book.60ecfbd1004817dbb8b4.png",
     "static/media/Kings (1).png": "/static/media/Kings (1).b3a51a51eb8a7f69285c.png",
     "static/media/Ranjeet-3.png": "/static/media/Ranjeet-3.8b07be15d38869612728.png",
     "static/media/github.png": "/static/media/github.bc45ee99ee31457ba80a.png",
+    "static/media/Ranjeet Kumar Raj-Full Stack Web Developer.pdf": "/static/media/Ranjeet Kumar Raj-Full Stack Web Developer.620fed36eea1c8fd3fc5.pdf",
     "static/media/react.png": "/static/media/react.f3e576ba08e6be927148.png",
     "static/media/vscode.png": "/static/media/vscode.d793c746fbc937f66e3d.png",
     "static/media/css.jpg": "/static/media/css.ef605f2148ca970497b5.jpg",
     "index.html": "/index.html",
     "main.e1794b42.css.map": "/static/css/main.e1794b42.css.map",
-    "main.9f40a700.js.map": "/static/js/main.9f40a700.js.map"
+    "main.64eca75e.js.map": "/static/js/main.64eca75e.js.map"
   },
   "entrypoints": [
     "static/css/main.e1794b42.css",
-    "static/js/main.9f40a700.js"
+    "static/js/main.64eca75e.js"
   ]
 }
