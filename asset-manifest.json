@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.e1794b42.css",
-    "main.js": "/static/js/main.64eca75e.js",
+    "main.js": "/static/js/main.b95bfe97.js",
     "static/media/GemGarden.png": "/static/media/GemGarden.741a5e0104d4ddea4656.png",
     "static/media/Boat&Bains.png": "/static/media/Boat&Bains.76e7ce82118246e19bcb.png",
     "static/media/Carter's.png": "/static/media/Carter's.225d3d826b0a079d6e2b.png",
@@ -15,10 +15,10 @@
     "static/media/css.jpg": "/static/media/css.ef605f2148ca970497b5.jpg",
     "index.html": "/index.html",
     "main.e1794b42.css.map": "/static/css/main.e1794b42.css.map",
-    "main.64eca75e.js.map": "/static/js/main.64eca75e.js.map"
+    "main.b95bfe97.js.map": "/static/js/main.b95bfe97.js.map"
   },
   "entrypoints": [
     "static/css/main.e1794b42.css",
-    "static/js/main.64eca75e.js"
+    "static/js/main.b95bfe97.js"
   ]
 }
