@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.e1794b42.css",
-    "main.js": "/static/js/main.51cfb9d5.js",
+    "main.js": "/static/js/main.4128ca91.js",
     "static/media/G-movies-3.png": "/static/media/G-movies-3.35a2232d40d70e901d75.png",
     "static/media/GemGarden.png": "/static/media/GemGarden.741a5e0104d4ddea4656.png",
     "static/media/Boat&Bains.png": "/static/media/Boat&Bains.76e7ce82118246e19bcb.png",
@@ -20,10 +20,10 @@
     "static/media/css.jpg": "/static/media/css.ef605f2148ca970497b5.jpg",
     "index.html": "/index.html",
     "main.e1794b42.css.map": "/static/css/main.e1794b42.css.map",
-    "main.51cfb9d5.js.map": "/static/js/main.51cfb9d5.js.map"
+    "main.4128ca91.js.map": "/static/js/main.4128ca91.js.map"
   },
   "entrypoints": [
     "static/css/main.e1794b42.css",
-    "static/js/main.51cfb9d5.js"
+    "static/js/main.4128ca91.js"
   ]
 }
