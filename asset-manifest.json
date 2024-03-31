@@ -1,10 +1,11 @@
 {
   "files": {
     "main.css": "/static/css/main.e1794b42.css",
-    "main.js": "/static/js/main.4128ca91.js",
+    "main.js": "/static/js/main.01efb7d3.js",
     "static/media/G-movies-3.png": "/static/media/G-movies-3.35a2232d40d70e901d75.png",
     "static/media/GemGarden.png": "/static/media/GemGarden.741a5e0104d4ddea4656.png",
     "static/media/Boat&Bains.png": "/static/media/Boat&Bains.76e7ce82118246e19bcb.png",
+    "static/media/RanjeetKumarRaj-FullStackWebDeveloper-Qe3c.pdf": "/static/media/RanjeetKumarRaj-FullStackWebDeveloper-Qe3c.9e50a5357be389f2fb98.pdf",
     "static/media/Carter's.png": "/static/media/Carter's.225d3d826b0a079d6e2b.png",
     "static/media/R-projects.png": "/static/media/R-projects.26f992533c8bd7943a7b.png",
     "static/media/book.png": "/static/media/book.60ecfbd1004817dbb8b4.png",
@@ -12,7 +13,6 @@
     "static/media/Ranjeet-3.png": "/static/media/Ranjeet-3.8b07be15d38869612728.png",
     "static/media/node.png": "/static/media/node.aa8bc616bb8252fa29f3.png",
     "static/media/github.png": "/static/media/github.bc45ee99ee31457ba80a.png",
-    "static/media/Ranjeet Kumar Raj-Full Stack Web Developer.pdf": "/static/media/Ranjeet Kumar Raj-Full Stack Web Developer.620fed36eea1c8fd3fc5.pdf",
     "static/media/Vite.js.png": "/static/media/Vite.js.6c883b683c133d70d474.png",
     "static/media/react.png": "/static/media/react.f3e576ba08e6be927148.png",
     "static/media/mongodb.png": "/static/media/mongodb.7a16fc61d457c9e340e2.png",
@@ -20,10 +20,10 @@
     "static/media/css.jpg": "/static/media/css.ef605f2148ca970497b5.jpg",
     "index.html": "/index.html",
     "main.e1794b42.css.map": "/static/css/main.e1794b42.css.map",
-    "main.4128ca91.js.map": "/static/js/main.4128ca91.js.map"
+    "main.01efb7d3.js.map": "/static/js/main.01efb7d3.js.map"
   },
   "entrypoints": [
     "static/css/main.e1794b42.css",
-    "static/js/main.4128ca91.js"
+    "static/js/main.01efb7d3.js"
   ]
 }
