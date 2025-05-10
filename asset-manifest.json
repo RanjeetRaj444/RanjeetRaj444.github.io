@@ -1,23 +1,22 @@
 {
   "files": {
     "main.css": "/static/css/main.32128f02.css",
-    "main.js": "/static/js/main.27ecdf86.js",
+    "main.js": "/static/js/main.ac3b7082.js",
     "static/media/G-movies-3.png": "/static/media/G-movies-3.35a2232d40d70e901d75.png",
     "static/media/GemGarden.png": "/static/media/GemGarden.741a5e0104d4ddea4656.png",
     "static/media/Boat&Bains.png": "/static/media/Boat&Bains.76e7ce82118246e19bcb.png",
     "static/media/StudyBuddy.png": "/static/media/StudyBuddy.c3bd467d4241493a4417.png",
     "static/media/RanjeetKumarRaj-FullStackWebDeveloper-Qe3c.pdf": "/static/media/RanjeetKumarRaj-FullStackWebDeveloper-Qe3c.9e50a5357be389f2fb98.pdf",
     "static/media/Carter's.png": "/static/media/Carter's.225d3d826b0a079d6e2b.png",
-    "static/media/R-projects.png": "/static/media/R-projects.26f992533c8bd7943a7b.png",
     "static/media/Ranjeet-3.png": "/static/media/Ranjeet-3.d23c358d7cb15e7d5949.png",
     "static/media/book.png": "/static/media/book.60ecfbd1004817dbb8b4.png",
-    "static/media/Kings (1).png": "/static/media/Kings (1).b3a51a51eb8a7f69285c.png",
     "static/media/node.png": "/static/media/node.8683d89cf78ffae3d1f7.png",
     "static/media/github.png": "/static/media/github.bc45ee99ee31457ba80a.png",
+    "static/media/blog.png": "/static/media/blog.a1cb7004a4130fe4e53d.png",
     "static/media/Password-generator.png": "/static/media/Password-generator.626e2bf77a0e70ae1479.png",
     "static/media/chakraUI.png": "/static/media/chakraUI.e7e0b39ee5137e44577f.png",
     "static/media/Vite.js.png": "/static/media/Vite.js.6c883b683c133d70d474.png",
-    "static/media/redux.png": "/static/media/redux.c9be37e0fece29c624b0.png",
+    "static/media/redux.png": "/static/media/redux.b3b939c66aecf7d53967.png",
     "static/media/sass.png": "/static/media/sass.36e863bfbcb25c109d00.png",
     "static/media/react.png": "/static/media/react.f3e576ba08e6be927148.png",
     "static/media/mongodb.png": "/static/media/mongodb.7a16fc61d457c9e340e2.png",
@@ -31,10 +30,10 @@
     "index.html": "/index.html",
     "static/media/circle.svg": "/static/media/circle.134eeeb1e58895b892195fe8ed63bc9f.svg",
     "main.32128f02.css.map": "/static/css/main.32128f02.css.map",
-    "main.27ecdf86.js.map": "/static/js/main.27ecdf86.js.map"
+    "main.ac3b7082.js.map": "/static/js/main.ac3b7082.js.map"
   },
   "entrypoints": [
     "static/css/main.32128f02.css",
-    "static/js/main.27ecdf86.js"
+    "static/js/main.ac3b7082.js"
   ]
 }
