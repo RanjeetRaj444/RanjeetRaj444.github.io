@@ -1,0 +1,16 @@
+{
+  "name": "Ranjeet Kumar Raj — Full Stack Developer",
+  "short_name": "Ranjeet.dev",
+  "description": "Portfolio of Ranjeet Kumar Raj, Full Stack MERN Developer.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#070b16",
+  "theme_color": "#070b16",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
