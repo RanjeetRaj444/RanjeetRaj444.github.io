@@ -1,159 +1,122 @@
-import React, { useState } from "react";
+import { useEffect, useState } from "react";
 import { Link } from "react-scroll";
-import { Menu } from "../styled-components/Menu";
-import "../styles/navbar.css";
-import { Loader } from "./Loader";
-// ranjeet_portfolio/src
-import resume from "../assets/RanjeetKumarRaj-FullStackWebDeveloper-Qe3c.pdf";
+import { HiMenuAlt3, HiX } from "react-icons/hi";
+import { resume, personal } from "../data/info";
+import { Button } from "./ui/Button";
 
-import { RiMenuFoldFill, RiCloseLine } from "react-icons/ri";
+const links = [
+	{ to: "home", label: "Home" },
+	{ to: "about", label: "About" },
+	{ to: "experience", label: "Experience" },
+	{ to: "skills", label: "Skills" },
+	{ to: "projects", label: "Projects" },
+	{ to: "contact", label: "Contact" },
+];
 
-export const Navbar = ({ home }) => {
-	const [openMenu, setOpenMenu] = useState(false);
+export function Navbar() {
+	const [scrolled, setScrolled] = useState(false);
+	const [open, setOpen] = useState(false);
+
+	useEffect(() => {
+		const onScroll = () => setScrolled(window.scrollY > 24);
+		onScroll();
+		window.addEventListener("scroll", onScroll, { passive: true });
+		return () => window.removeEventListener("scroll", onScroll);
+	}, []);
+
 	return (
-		<nav id="nav-menu">
-			<Link to="home" offset={-100}>
-				<div className="brand">
-					<Loader />
-					<h3 id="user-detail-name">Ranjeet</h3>
-				</div>
-			</Link>
+		<header
+			className={`fixed inset-x-0 top-0 z-50 transition-all duration-300 ${
+				scrolled ? "glass shadow-lg" : "bg-transparent"
+			}`}
+		>
+			<nav className="container-x flex h-16 items-center justify-between">
+				<Link
+					to="home"
+					smooth
+					duration={500}
+					className="cursor-pointer text-lg font-bold tracking-tight"
+				>
+					<span className="accent-text">{personal.firstName}</span>
+					<span className="text-[var(--color-muted)]">.dev</span>
+				</Link>
 
-			<div className="bigScreenNav">
-				<ul className={"menus"}>
-					<li className="menu__item">
-						<Link className="nav-link home" to="home" offset={-100}>
-							<Menu>Home</Menu>
-						</Link>
-					</li>
-
-					<li className="menu__item">
-						<Link className="nav-link about" to="about" offset={-100}>
-							<Menu>About</Menu>
-						</Link>
-					</li>
-
-					<li className="menu__item">
-						<Link className="nav-link skills" to="skills" offset={-100}>
-							<Menu>Skills</Menu>
-						</Link>
-					</li>
-
-					<li className="menu__item">
-						<Link className="nav-link projects" to="projects" offset={-100}>
-							<Menu>Projects</Menu>
-						</Link>
-					</li>
-
-					<li className="menu__item">
-						{" "}
-						<Link className="nav-link contact" to="contact" offset={-100}>
-							<Menu>Contacts</Menu>
-						</Link>
-					</li>
-					<li className="menu__item" id="resume">
-						<a
-							id="resume-button-1"
-							target="_blank"
-							rel="noreferrer"
-							className="nav-link resume"
-							href={resume}
-							download
-						>
-							Resume
-						</a>
-					</li>
+				{/* Desktop */}
+				<ul className="hidden items-center gap-1 md:flex">
+					{links.map((l) => (
+						<li key={l.to}>
+							<Link
+								to={l.to}
+								smooth
+								spy
+								duration={500}
+								offset={-70}
+								activeClass="text-[var(--color-ink)] after:w-full"
+								className="relative cursor-pointer px-3 py-2 text-sm font-medium text-[var(--color-muted)] transition-colors hover:text-[var(--color-ink)] after:absolute after:bottom-0 after:left-3 after:h-px after:w-0 after:bg-[var(--color-accent)] after:transition-all after:duration-300 hover:after:w-[calc(100%-1.5rem)]"
+							>
+								{l.label}
+							</Link>
+						</li>
+					))}
 				</ul>
-			</div>
 
-			<div className="smallScreenNav">
-				<button onClick={() => setOpenMenu(true)}>
-					<RiMenuFoldFill />
+				<div className="hidden md:block">
+					<Button
+						as="a"
+						href={resume}
+						download
+						target="_blank"
+						rel="noreferrer"
+						className="!px-5 !py-2"
+					>
+						Resume
+					</Button>
+				</div>
+
+				{/* Mobile toggle */}
+				<button
+					onClick={() => setOpen((v) => !v)}
+					className="glass flex h-10 w-10 items-center justify-center rounded-lg text-xl md:hidden"
+					aria-label="Toggle menu"
+				>
+					{open ? <HiX /> : <HiMenuAlt3 />}
 				</button>
+			</nav>
 
-				{openMenu && (
-					<div className="menus__small">
-						<ul className="small">
-							<button onClick={() => setOpenMenu(false)}>
-								<RiCloseLine />
-							</button>
-
-							<li className="menu__item">
+			{/* Mobile menu */}
+			{open && (
+				<div className="glass border-t border-[var(--color-border)] md:hidden">
+					<ul className="container-x flex flex-col gap-1 py-4">
+						{links.map((l) => (
+							<li key={l.to}>
 								<Link
-									className="nav-link home"
-									data-aos="fade-up"
-									onClick={() => setOpenMenu(false)}
-									to="home"
-									offset={-100}
+									to={l.to}
+									smooth
+									duration={500}
+									offset={-70}
+									onClick={() => setOpen(false)}
+									className="block cursor-pointer rounded-lg px-3 py-3 text-sm font-medium text-[var(--color-muted)] hover:bg-white/5 hover:text-[var(--color-ink)]"
 								>
-									<Menu>Home</Menu>
+									{l.label}
 								</Link>
 							</li>
-
-							<li className="menu__item">
-								<Link
-									className="nav-link about"
-									data-aos="fade-up"
-									onClick={() => setOpenMenu(false)}
-									to="about"
-									offset={-100}
-								>
-									<Menu>About</Menu>
-								</Link>
-							</li>
-
-							<li className="menu__item">
-								<Link
-									className="nav-link skills"
-									data-aos="fade-up"
-									onClick={() => setOpenMenu(false)}
-									to="skills"
-									offset={-100}
-								>
-									<Menu>Skills</Menu>
-								</Link>
-							</li>
-
-							<li className="menu__item">
-								<Link
-									className="nav-link projects"
-									data-aos="fade-up"
-									onClick={() => setOpenMenu(false)}
-									to="projects"
-									offset={-100}
-								>
-									<Menu>Projects</Menu>
-								</Link>
-							</li>
-
-							<li className="menu__item">
-								{" "}
-								<Link
-									className="nav-link contact"
-									data-aos="fade-up"
-									onClick={() => setOpenMenu(false)}
-									to="contact"
-									offset={-100}
-								>
-									<Menu>Contacts</Menu>
-								</Link>
-							</li>
-							<li className="menu__item" id="resume">
-								<a
-									id="resume-button-1"
-									className="nav-link resume"
-									target="_blank"
-									rel="noreferrer"
-									href={resume}
-									download
-								>
-									Resume
-								</a>
-							</li>
-						</ul>
-					</div>
-				)}
-			</div>
-		</nav>
+						))}
+						<li className="px-3 pt-2">
+							<Button
+								as="a"
+								href={resume}
+								download
+								target="_blank"
+								rel="noreferrer"
+								className="w-full"
+								onClick={() => setOpen(false)}
+							>
+								Download Resume
+							</Button>
+						</li>
+					</ul>
+				</div>
+			)}
+		</header>
 	);
-};
+}
