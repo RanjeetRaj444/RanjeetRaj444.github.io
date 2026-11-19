@@ -16,7 +16,7 @@ export function About() {
 
 				<div className="grid gap-4 md:grid-cols-6">
 					{/* Bio + portrait (big tile) */}
-					<Reveal className="md:col-span-4 md:row-span-2">
+					<Reveal className="min-w-0 md:col-span-4 md:row-span-2">
 						<SpotlightCard className="h-full rounded-[var(--radius-xl2)] p-6 sm:p-7">
 							<div className="flex flex-col gap-6 sm:flex-row sm:items-center">
 								<div className="relative shrink-0">
@@ -43,7 +43,7 @@ export function About() {
 					</Reveal>
 
 					{/* Currently / role */}
-					<Reveal delay={1} className="md:col-span-2">
+					<Reveal delay={1} className="min-w-0 md:col-span-2">
 						<SpotlightCard className="h-full rounded-[var(--radius-xl2)] p-6">
 							<div className="mb-3 flex items-center gap-2 text-[var(--color-accent)]">
 								<FaBriefcase />
@@ -71,7 +71,7 @@ export function About() {
 					</Reveal>
 
 					{/* Stats */}
-					<Reveal delay={2} className="md:col-span-2">
+					<Reveal delay={2} className="min-w-0 md:col-span-2">
 						<SpotlightCard className="h-full rounded-[var(--radius-xl2)] p-6">
 							<div className="grid grid-cols-3 gap-2 text-center">
 								{stats.map((s) => (
@@ -87,7 +87,7 @@ export function About() {
 					</Reveal>
 
 					{/* What I do */}
-					<Reveal delay={1} className="md:col-span-3">
+					<Reveal delay={1} className="min-w-0 md:col-span-3">
 						<SpotlightCard className="h-full rounded-[var(--radius-xl2)] p-6">
 							<h3 className="mb-4 text-sm font-semibold uppercase tracking-wider text-[var(--color-muted)]">
 								What I do
@@ -107,7 +107,7 @@ export function About() {
 					</Reveal>
 
 					{/* Tech marquee */}
-					<Reveal delay={2} className="md:col-span-3">
+					<Reveal delay={2} className="min-w-0 md:col-span-3">
 						<SpotlightCard className="flex h-full flex-col justify-center rounded-[var(--radius-xl2)] p-6">
 							<h3 className="mb-4 text-sm font-semibold uppercase tracking-wider text-[var(--color-muted)]">
 								Tech I use daily
